@@ -39,9 +39,9 @@ This system uses a CNN model to automatically detect and classify road signs bas
 | Epochs Trained      | 40          |
 
 Example predictions via Gradio UI:
-- ✅ Detected: `Turn left ahead`
-- ✅ Detected: `Speed limit (30km/h)`
-- ✅ Detected: `Stop`, `No entry`, etc.
+- Detected: `Turn left ahead`
+- Detected: `Speed limit (30km/h)`
+- Detected: `Stop`, `No entry`, etc.
 
 > See `/results/` folder for screenshots.
 
