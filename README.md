@@ -1,14 +1,13 @@
 # Smart-Road-Sign-Interaction-System
-This project develops a real-time traffic sign recognition system using computer vision and a CNN model trained on a diverse Kaggle dataset, achieving high accuracy in detecting and classifying road signs under various conditions.
+This project develops a real-time traffic sign recognition system using computer vision and a CNN model trained on a diverse Kaggle dataset, achieving high accuracy in detecting and classifying road signs under various conditions.By utilizing a well-curated Kaggle dataset encompassing a diverse range of traffic sign images, we trained a high-performance Convolutional Neural Network (CNN) capable of accurately identifying various road signs under different conditions. The system is designed to enhance both human-driven and autonomous navigation by delivering timely and precise road sign recognition, ultimately contributing to safer and more informed driving experiences. T
 
 ## Project Structure
 smart-road-sign-interaction/
-│
-├── SmartRoadSignRecognition.ipynb - code and training
-├── requirements.txt - Required Python packages
-├── accuracy_report.txt -  Accuracy and evaluation summary
-├── results/ - Screenshots of test predictions
-└── README.md 
+  - SmartRoadSignRecognition.ipynb :  code and training
+  - requirements.txt : Required Python packages
+  - accuracy_report.txt : Accuracy and evaluation summary
+  - results/ : Screenshots of test predictions
+  - README.md 
 
 ## Project Overview
 
