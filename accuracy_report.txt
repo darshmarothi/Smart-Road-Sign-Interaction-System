@@ -1,0 +1,15 @@
+Model: CNN for Road Sign Classification
+Dataset: GTSRB (subset - 6 classes)
+
+Training Configuration:
+- Epochs: 40
+- Batch Size: 32
+- Optimizer: Adam
+- Loss Function: Categorical Crossentropy
+
+Results:
+- Validation Accuracy: 99.63%
+- Validation Loss: 0.0032
+
+Evaluation Summary:
+The model demonstrates strong performance on the validation set across all six selected traffic sign classes.
