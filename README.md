@@ -65,7 +65,7 @@ Training configuration:
 ---
 
 ## Overall System Architecture
-![Overall System Architecture](\Users\Work\OneDrive\Pictures\Screenshots\Screenshot 2025-07-20 134945.png)
+![Overall System Architecture](results/arch.png)
 
 ## Testing & Results
 
