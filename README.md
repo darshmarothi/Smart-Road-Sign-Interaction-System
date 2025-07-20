@@ -5,7 +5,7 @@
 
 Traffic sign recognition is a vital component of modern intelligent transportation systems. Whether for **autonomous vehicles** or **driver assistance applications**, accurate detection and classification of road signs is essential for road safety and situational awareness.
 
-This project presents a real-time road sign recognition system using **Computer Vision** and a **Convolutional Neural Network (CNN)** trained on the **German Traffic Sign Recognition Benchmark (GTSRB)**. It classifies various types of road signs with high accuracy and provides instant predictions via a **Gradio-based UI**.
+This project presents a real-time road sign recognition system using **Computer Vision** and a **Convolutional Neural Network (CNN)** trained on the **German Traffic Sign Recognition Benchmark (GTSRB)**. It classifies various types of road signs with high accuracy and provides instant predictions.
 
 The primary aim is to offer a **baseline system** for traffic sign classification that can be further optimized with more advanced techniques in future iterations.
 
@@ -37,8 +37,6 @@ These steps improve contrast and reduce noise, aiding the model in recognizing f
 ```
 smart-road-sign-interaction/
 ├── SmartRoadSignRecognition.ipynb   # Jupyter Notebook with model training and testing
-├── gradio_app/
-│   └── interface.py                 # Optional: Gradio UI interface
 ├── requirements.txt                 # Python dependencies
 ├── accuracy_report.txt              # Accuracy & loss metrics summary
 ├── results/                         # Screenshots of test predictions
@@ -113,14 +111,6 @@ Open the notebook and train the model. Minimum 40 epochs recommended:
 ```bash
 jupyter notebook SmartRoadSignRecognition.ipynb
 ```
-
-### 4. Launch the Gradio UI
-
-If you’ve saved the trained model:
-```bash
-python gradio_app/interface.py
-```
-
 ---
 
 ## Evaluation
@@ -141,4 +131,6 @@ Further optimizations may include:
 
 - [German Traffic Sign Recognition Benchmark (GTSRB)](https://benchmark.ini.rub.de/?section=gtsrb&subsection=news)
 - TensorFlow & Keras Documentation
-- Gradio for UI Deployment
+
+## Suggestion
+- Use Gradio for UI Deployment
