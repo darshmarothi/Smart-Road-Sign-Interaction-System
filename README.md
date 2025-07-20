@@ -5,7 +5,7 @@
 
 Traffic sign recognition is a vital component of modern intelligent transportation systems. Whether for **autonomous vehicles** or **driver assistance applications**, accurate detection and classification of road signs is essential for road safety and situational awareness.
 
-This project presents a real-time road sign recognition system using **Computer Vision** and a **Convolutional Neural Network (CNN)** trained on the **German Traffic Sign Recognition Benchmark (GTSRB)**. It classifies various types of road signs with high accuracy and provides instant predictions.
+This project presents a real-time road sign recognition system using **Computer Vision** and a **Convolutional Neural Network (CNN)** trained on the **German Traffic Sign Recognition Benchmark (GTSRB)**. It classifies various types of road signs with high accuracy and provides instant predictions via a **Gradio-based UI**.
 
 The primary aim is to offer a **baseline system** for traffic sign classification that can be further optimized with more advanced techniques in future iterations.
 
@@ -64,6 +64,9 @@ Training configuration:
 
 ---
 
+## Overall System Architecture
+![alt text](image.png)
+
 ## Testing & Results
 
 The trained model was tested using unseen data and deployed using **Gradio** for real-time sign detection.
@@ -111,6 +114,14 @@ Open the notebook and train the model. Minimum 40 epochs recommended:
 ```bash
 jupyter notebook SmartRoadSignRecognition.ipynb
 ```
+
+### 4. Launch the Gradio UI
+
+If you’ve saved the trained model:
+```bash
+python gradio_app/interface.py
+```
+
 ---
 
 ## Evaluation
@@ -131,6 +142,4 @@ Further optimizations may include:
 
 - [German Traffic Sign Recognition Benchmark (GTSRB)](https://benchmark.ini.rub.de/?section=gtsrb&subsection=news)
 - TensorFlow & Keras Documentation
-
-## Suggestion
-- Use Gradio for UI Deployment
+- Gradio for UI Deployment
