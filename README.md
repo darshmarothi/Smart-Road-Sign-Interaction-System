@@ -65,7 +65,7 @@ Training configuration:
 ---
 
 ## Overall System Architecture
-![Overall System Architecture](results/arch.png)
+(![Uploading arch.png…]())
 
 ## Testing & Results
 
